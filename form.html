@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form practice</title>
+    <style>
+        hr{
+            background-color:white;
+            border-style:none ;
+            border-top-style:dotted ;
+            border-color: greey;
+            border-width: 10px;
+            height: 0px;
+           
+        }
+    </style>
+</head>
+
+<body bgcolor="plum">
+   <hr>
+   <h1>Fill  The Form</h1>
+   <hr>
+    <form action="mailto:bsarita926@gmail.com" method="POST" enctype="text/plain">
+      <div>
+          <label for="">Name:</label>
+          <input type="text" Placeholder="Write your Name" name="Name" size="35" >
+      </div>
+     
+        
+        <div>
+            <label for="">Father's Name:</label>
+
+            <input type="text" placeholder="Write youe father's Name" name="Father's Name" size="35">
+        </div><br>
+        <div>
+            <label for="">Contact No:</label>
+
+            <input type="number" placeholder="Write phone number" name="Contact No" >
+        </div><br>
+        <div>
+            <label for="Address"> Address:</label>
+
+            <input type"Address" Placeholder=" Witr your Address" name="Address" size="35">
+        </div><br>
+        <div>
+            <label for="">Birth Date:</label>
+            <input type="Date" name="Birth Date" size="50">
+        </div><br>
+        
+        <div>
+            <label for="">Email :</label>
+            <input type="email"  name="Email" size="35">
+        </div><br>
+        <div>
+            <label for="">Gender :</label>
+            <input type="radio" name="Gender" >Male
+            <input type="radio"name="Gender">Female
+            <input type="radio"name="Gender">Other
+        </div><br>
+        <div>
+            <label for="">Country</label>
+            <select name="" id="">
+                <option value="">Nepal</option>
+                <option value="">India</option>
+                <option value="">USA</option>
+            </select>
+        </div>
+
+        <div>
+            <label for=""> Write about you:</label>
+            <br>
+            <textarea name="" id="10" cols="30" rows="10"></textarea>
+        </div><br>
+        
+            <label for="">Submit:</label>
+            <input type="Submit" name="submit" Vaqlue="submit">
+       
+        <label for="">REset:</label>
+        <input type="reset" name="submit" Vaqlue="submit">
+       
+    </form>
+
+</body>
+
+</html>
